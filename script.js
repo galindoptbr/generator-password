@@ -32,5 +32,6 @@ function copyPassword() {
     navigator.clipboard.writeText(novaSenha);
     const audio = new Audio('audio-octane.mp3');
     audio.play();
+    alert('Senha copiada com sucesso!');
     // alert('Senha copiada com sucesso!')
 }
